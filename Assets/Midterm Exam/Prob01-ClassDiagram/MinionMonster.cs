@@ -6,6 +6,6 @@ namespace MidtermExam.Prob01
     {
         public int swarmBonus;
         private bool isAlertedl;
-        public CallReinforcements() : void
+        public void CallReinforcements(); 
     }
 }

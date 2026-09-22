@@ -4,14 +4,14 @@ using UnityEngine.PlayerLoop;
 
 namespace MidtermExam.Prob01
 {
-    public class GameEntity : Character
+    public class GameEntity
     {
         public string id;
         private Vector3 position;
         protected int health;
-        public virtual Update() : void
-        public virtual TakeDamage(int damage) : void
-        private MoveTowards(Vector3 direction) : void
+        public virtual void Update();
+        public virtual void TakeDamage(int damage);
+        private void MoveTowards(Vector3 direction);
 
 
 

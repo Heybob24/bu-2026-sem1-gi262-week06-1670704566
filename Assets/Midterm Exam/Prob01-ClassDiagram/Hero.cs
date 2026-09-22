@@ -6,8 +6,8 @@ namespace MidtermExam.Prob01
     {
         public int currentExp;
         private int gold;
-        public override Attack(GameEntity target) : void
-        public CollectGold(int amount) : void
-        protected override LevelUp() : void
+        public override void Attack(GameEntity target);
+        public void CollectGold(int amount);
+        protected override void LevelUp(); 
     }
 }

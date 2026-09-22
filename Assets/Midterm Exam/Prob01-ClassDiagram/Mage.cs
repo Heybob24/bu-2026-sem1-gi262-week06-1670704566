@@ -6,7 +6,7 @@ namespace MidtermExam.Prob01
     {
         public int mana;
         private int spellPower;
-        public override Attack(GameEntity target) : void
-        public CastSpell(GameEntity target) : void
+        public override void Attack(GameEntity target);
+        public void CastSpell(GameEntity target);
     }
 }

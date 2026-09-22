@@ -7,6 +7,6 @@ namespace MidtermExam.Prob01
         public string itemName;
         protected int weight;
         private int itemValue;
-        public virtual Use(Character user) : void
+        public virtual void Use(Character user);
     }
 }

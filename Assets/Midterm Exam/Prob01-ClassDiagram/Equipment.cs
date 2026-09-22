@@ -6,6 +6,6 @@ namespace MidtermExam.Prob01
     {
         public int durability;
         protected bool isEquipped;
-        public virtual Equip(Hero hero) : void
-        public override Use(Character user) : void
+        public virtual void Equip(Hero hero);
+        public override void Use(Character user);
     }

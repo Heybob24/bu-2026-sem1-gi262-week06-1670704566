@@ -6,8 +6,8 @@ namespace MidtermExam.Prob01
     {
         public int phase;
         private bool isEnraged;
-        public override Attack(GameEntity target) : void
-        protected override Roar() : void
-        public TriggerPhaseTransition() : void
+        public override void Attack(GameEntity target);
+        protected override void Roar();
+        public TriggerPhaseTransition();
     }
 }

@@ -6,7 +6,7 @@ namespace MidtermExam.Prob01
     {
         public int baseDamage;
         private int aggroRange;
-        public override Attack(GameEntity target) : void
-        protected Roar() : void
+        public override void Attack(GameEntity target);
+        protected void Roar();
     }
 }

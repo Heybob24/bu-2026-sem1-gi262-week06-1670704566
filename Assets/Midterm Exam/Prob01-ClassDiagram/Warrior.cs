@@ -6,8 +6,8 @@ namespace MidtermExam.Prob01
     {
         public int shieldDefense;
         private float rage;
-        public override Attack(GameEntity target) : void 
-        public ShieldBash (GameEntity target) : void
+        public override void Attack(GameEntity target);
+        public void ShieldBash(GameEntity target);
     }
 }
 }

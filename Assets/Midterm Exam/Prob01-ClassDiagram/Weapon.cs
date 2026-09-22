@@ -6,7 +6,7 @@ namespace MidtermExam.Prob01
     {
         public int extraDamage;
         private float criticalChance;
-        public override Equip(Hero hero) : void
-        public Polish() : void
+        public override void Equip(Hero hero);
+        public void Polish();
     }
 }
