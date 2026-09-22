@@ -2,8 +2,11 @@ using UnityEngine;
 
 namespace MidtermExam.Prob01
 {
-    public class Mage
+    public class Mage : Hero
     {
-        // TODO: Implement inheritance, fields and methods according to Class Diagram
+        public int mana;
+        private int spellPower;
+        public override Attack(GameEntity target) : void
+        public CastSpell(GameEntity target) : void
     }
 }

@@ -2,8 +2,12 @@ using UnityEngine;
 
 namespace MidtermExam.Prob01
 {
-    public class Character
+    public class Character : MonoBehaviour
     {
-        // TODO: Implement inheritance, fields and methods according to Class Diagram
+        public string characterName;
+        protected float moveSpeed;
+        private int level;
+        public virtual Attack(GameEntity target) : void
+        public virtual LevelUp() : void
     }
 }

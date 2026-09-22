@@ -2,8 +2,12 @@ using UnityEngine;
 
 namespace MidtermExam.Prob01
 {
-    public class BossMonster
+    public class BossMonster : Monster
     {
-        // TODO: Implement inheritance, fields and methods according to Class Diagram
+        public int phase;
+        private bool isEnraged;
+        public override Attack(GameEntity target) : void
+        protected override Roar() : void
+        public TriggerPhaseTransition() : void
     }
 }

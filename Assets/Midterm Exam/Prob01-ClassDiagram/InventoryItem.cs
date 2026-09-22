@@ -2,8 +2,11 @@ using UnityEngine;
 
 namespace MidtermExam.Prob01
 {
-    public class InventoryItem
+    public class InventoryItem : Equipment
     {
-        // TODO: Implement fields and methods according to Class Diagram
+        public string itemName;
+        protected int weight;
+        private int itemValue;
+        public virtual Use(Character user) : void
     }
 }

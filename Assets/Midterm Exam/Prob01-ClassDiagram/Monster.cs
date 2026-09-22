@@ -2,8 +2,11 @@ using UnityEngine;
 
 namespace MidtermExam.Prob01
 {
-    public class Monster
+    public class Monster : Hero
     {
-        // TODO: Implement inheritance, fields and methods according to Class Diagram
+        public int baseDamage;
+        private int aggroRange;
+        public override Attack(GameEntity target) : void
+        protected Roar() : void
     }
 }
